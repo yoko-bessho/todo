@@ -25,9 +25,8 @@
             <button type="submit" class="edit-button">更新</button>
             </form>
             <form action="" method="post" class="todo-form">
-              @scrf
               @method('delete')
-              <button thpe="submit" class="delete-button">削除</button>
+              <button type="submit" class="delete-button">削除</button>
             </form>
           </li>
         </ul>
