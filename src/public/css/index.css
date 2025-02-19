@@ -1,0 +1,84 @@
+.todo__content {
+  display: flex;
+  justify-content: center;
+}
+
+.new-todo__content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.new-todo-form {
+  display: flex;
+  text-align: center;
+  width: 800px;
+  gap: 50px;
+}
+.new-todo-form input[type="text"]{
+  width: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  font-size: 24px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.new-todo-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  height: 80px;
+  width: 150px;
+}
+
+.todo-list__content {
+  width: 100%;
+  justify-content: center;
+}
+
+h2 {
+  margin-left: 100px;
+}
+.todo-list__content ul {
+  margin-left: 100px;
+}
+
+.todo-list__content li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 70%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-text {
+  flex: 1;
+  font-size: 24px;
+}
+.todo-form {
+  display: inline-block;
+  margin-left: 10px;
+
+}
+.edit-button, .delete-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.edit-button {
+  color: #fff;
+  background-color: #0000ff;
+}
+.delete-button {
+  color: #fff;
+  background-color: #f00;
+}
